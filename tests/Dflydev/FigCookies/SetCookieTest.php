@@ -153,8 +153,8 @@ class SetCookieTest extends TestCase
                     ->withSecure(true)
                     ->withHttpOnly(true)
                     ->withSameSite(SameSite::lax())
-                    ->withPartitioned()
-            ]
+                    ->withPartitioned(),
+            ],
         ];
     }
 

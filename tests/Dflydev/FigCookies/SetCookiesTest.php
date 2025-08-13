@@ -192,9 +192,9 @@ class SetCookiesTest extends TestCase
                     SetCookie::create('d', 'DDD'),
                     SetCookie::create('e', 'EEE')->withPartitioned(),
                     SetCookie::create('f', 'FFF'),
-                    SetCookie::create('g', 'GGG')->withPartitioned()
-                ]
-            ]
+                    SetCookie::create('g', 'GGG')->withPartitioned(),
+                ],
+            ],
         ];
     }
 
