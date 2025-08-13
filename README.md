@@ -172,7 +172,7 @@ $setCookie = SetCookie::create('lu')
     ->withSecure(true)
     ->withHttpOnly(true)
     ->withSameSite(SameSite::lax())
-    ->witHPartitioned()
+    ->withPartitioned()
 ;
 ```
 
