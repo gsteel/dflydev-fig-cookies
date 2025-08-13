@@ -431,9 +431,9 @@ class SetCookie
     }
 
     /**
-     * @param string[] $cookieStringParts 
-     * 
-     * @return string[] 
+     * @param string[] $cookieStringParts
+     *
+     * @return string[]
      */
     private function appendFormattedPartitionedPartIfSet(array $cookieStringParts): array
     {
